@@ -20,15 +20,20 @@ yarn install
 2. Add the following environment variables in the `.env` file with your own values:
    
 PORT=8000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 JWT_EXPIRES_IN=1h
 
 EMAIL_USERNAME=your_email@example.com
+
 EMAIL_PASSWORD=your_email_password
+
 FRONTEND_URL=http://localhost:5173
 
-////////
+#############################################################
 
 
 # Running the app locally
